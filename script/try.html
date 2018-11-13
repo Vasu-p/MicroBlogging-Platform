@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<head>
+		
+
+		<title>try</title>
+		
+
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+      	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      	<link type="text/css" rel="stylesheet" href="css/style.css">
+	
+	</head>
+
+	<body>
+		
+		
+
+
+	
+	<div class="container">
+<ul id="slide-out" class="side-nav full"> 
+	<li><a href="#!"><i class="mdi-action-done-all left"></i>Option 1</a></li>
+	<li><a href="#!">Option 2</a></li>
+	
+</ul>
+<a href="#" class="button-collapse" data-activates="slide-out"> 
+	<i class="large mdi-navigation-expand-more"></i>
+</a>
+<div class="row hoverable">
+  <form class="col l6 offset-l3" action="signin.php">
+    <div class="row">
+      <div class="input-field col l12">
+      	<i class="mdi-action-account-circle prefix"></i>
+      	<input id="username" type="text" length="10">
+      	<label for="username">Username</label>
+      	</div>
+    </div>
+    <div class="row">
+      <div class="input-field col l12">
+      	<i class="mdi-action-https prefix"></i>
+      	<input id="pass" type="password">
+      	<label for="pass">Password</label>
+      	</div>
+    </div>
+    <div class="row center">
+      <div class="input-field col l12">
+      	<button type="submit" class="btn btn-floating btn-large"><i class="mdi-navigation-arrow-forward
+"></i></button>
+      	</div>
+    </div>
+    
+  </form>
+</div>
+
+
+
+</div>
+
+	<script type="text/javascript" src="jquery-2.1.4.js"></script>
+  	<script type="text/javascript" src="materialize.js"></script>
+  	<script type="text/javascript">
+    //custom JS code
+   
+    
+  $(document).ready(function(){
+   
+     $(".button-collapse").sideNav();
+  });
+        
+  	</script>
+	</body>
+</html>
